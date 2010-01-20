@@ -1,0 +1,9 @@
+Modified version of Fifteen puzzle game for Android OS. It displays scrambled tiles of image and player have to arranged the tiles into images. 
+   I will update the code if I get time to work on it.
+
+todo
+----
+
+- Moving of the tiles soomthly
+- Option to select image from user library or flickr.
+- Shake for new game.
