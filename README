@@ -4,6 +4,6 @@ Modified version of Fifteen puzzle game for Android OS. It displays scrambled ti
 todo
 ----
 
-- Moving of the tiles soomthly
+- Smooth movement of tiles instead of jumping from one place to another.
 - Option to select image from user library or flickr.
 - Shake for new game.
