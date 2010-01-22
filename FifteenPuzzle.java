@@ -130,11 +130,11 @@ public class FifteenPuzzle extends Activity implements OnGestureListener {
 	 * URL: http://mathworld.wolfram.com/15Puzzle.html
 	 */
 	private boolean isSolvable(Integer[] board) {
-		int inversionSum = 0; // If this sum is even it is solvable
+		int inversionSum = 0; // If this sum is even, then it is solvable
 		for (int i = 0; i < board.length; i++) {
-			// For empty square add row number to inversionSum
+			// For empty square add the row number to inversionSum
 			if (board[i] == 0) {
-				inversionSum += ((i / DIM) + 1); // add Row number
+				inversionSum += ((i / DIM) + 1); // add the Row number
 				continue;
 			}
 			int count = 0;
@@ -148,8 +148,8 @@ public class FifteenPuzzle extends Activity implements OnGestureListener {
 			inversionSum += count;
 		}
 
-		// if inversionSum is even return true, otherwise false
-		return ((inversionSum & 1) == 0) ? true : false;
+		// if inversionSum is even then the game is solvable
+		return ((inversionSum % 2) == 0) ? true : false;
 	}
 
 	// divides the image into tiles
