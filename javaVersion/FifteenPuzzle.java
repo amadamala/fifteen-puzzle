@@ -11,9 +11,9 @@ import java.util.Collections;
  *  
  * <p> The <code><b>n-puzzle</b></code> is known in various versions, 
  * including the <code></b>8 puzzle, the 15 puzzle</code></b>, and with 
- * various names. If the grid is <b>3×3</b>, the puzzle is called the 
+ * various names. If the grid is <b>3ï¿½3</b>, the puzzle is called the 
  * <code><b>8-puzzle </b></code> or <code><b>9-puzzle</b></code>. If 
- * the grid is <b>4×4</b>, the puzzle is called the <code><b>15-puzzle
+ * the grid is <b>4ï¿½4</b>, the puzzle is called the <code><b>15-puzzle
  * </b></code> or <code><b> 16-puzzle </b></code>. The goal of the 
  * puzzle is to unjumble the squares by only making moves which slide 
  * squares into the empty space, in turn revealing another empty space 
