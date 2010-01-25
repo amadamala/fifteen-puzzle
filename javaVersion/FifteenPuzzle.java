@@ -9,15 +9,13 @@ import java.util.Collections;
  * It is a sliding puzzle that consists of a grid of numbered squares 
  * with one square missing, and the labels on the squares jumbled up
  *  
- * <p> The <code><b>n-puzzle</b></code> is known in various versions, 
- * including the <code></b>8 puzzle, the 15 puzzle</code></b>, and with 
- * various names. If the grid is <b>3×3</b>, the puzzle is called the 
- * <code><b>8-puzzle </b></code> or <code><b>9-puzzle</b></code>. If 
- * the grid is <b>4×4</b>, the puzzle is called the <code><b>15-puzzle
- * </b></code> or <code><b> 16-puzzle </b></code>. The goal of the 
- * puzzle is to unjumble the squares by only making moves which slide 
- * squares into the empty space, in turn revealing another empty space 
- * in the position of the moved piece.</p>
+ * The n-puzzle is known in various versions, including the 8 puzzle, 
+ * the 15 puzzle, and with various names. If the grid is 3×3, the puzzle 
+ * is called the  8-puzzle or 9-puzzle. If the grid is 4×4, the puzzle is
+ * called the 15-puzzle or 16-puzzle. The goal of the puzzle is to 
+ * unjumble the squares by only making moves which slide squares into the
+ * empty space, in turn revealing another empty space in the position 
+ * of the moved piece.
  */
 
 /**
