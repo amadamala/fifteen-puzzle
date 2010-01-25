@@ -23,7 +23,6 @@ import java.util.Collections;
  * @author Anil Madamala 
  * Copyright (c) 2007,2008 Anil Madamala
  * Any problems contact: amadamala+code@gmail.com
- * 
  */
 public class FifteenPuzzle implements ActionListener {
 
