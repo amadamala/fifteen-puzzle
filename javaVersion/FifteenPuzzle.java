@@ -1,10 +1,22 @@
-
+import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
+/**
+ * It is a sliding puzzle that consists of a grid of numbered squares 
+ * with one square missing, and the labels on the squares jumbled up
+ *  
+ * The n-puzzle is known in various versions, including the 8 puzzle, 
+ * the 15 puzzle, and with various names. If the grid is 3×3, the puzzle 
+ * is called the 8-puzzle or 9-puzzle. If the grid is 4×4, the puzzle is 
+ * called the 15-puzzle or 16-puzzle. The goal of the puzzle is to 
+ * un-jumble the squares by only making moves which slide squares into 
+ * the empty space, in turn revealing another empty space in the position 
+ * of the moved piece.
+ */
 
 /**
  * 
@@ -15,7 +27,7 @@ import java.util.Collections;
  */
 public class FifteenPuzzle implements ActionListener {
 
-    /* Dimention of the Board */
+    /* Dimension of the Board */
     private static final int DIM = 4;  // For N * N board DIM = N
     /* Total number of cells in the board */
     private static final int SIZE = DIM * DIM;
@@ -61,7 +73,7 @@ public class FifteenPuzzle implements ActionListener {
     }
 
     /**
-     * Generates the random intitial state for the game.
+     * Generates the random initial state for the game.
      * Assigns unique random number to each square
      */
     private void initializeBoard() {
@@ -89,7 +101,7 @@ public class FifteenPuzzle implements ActionListener {
             final int ROW = index / DIM;  // row number from index
             final int COL = index % DIM;   // column number from index 
             board[ROW][COL] = new JButton(String.valueOf(intialList.get(index)));
-            // intializes the empty square and hide it
+            // Initializes the empty square and hide it
             if (intialList.get(index) == 0) {
                 emptyCell = index;
                 board[ROW][COL].setVisible(false);
@@ -123,7 +135,7 @@ public class FifteenPuzzle implements ActionListener {
 
     /**
      * Verifies the board for solvability.
-     * For more detals of solvability goto URL:
+     * For more details of solvability goto URL:
      * http://mathworld.wolfram.com/15Puzzle.html 
      * @param list, 16 elements from 0-15, no repetition of elements
      * @return true, if the initial board can be solvable
@@ -189,7 +201,7 @@ public class FifteenPuzzle implements ActionListener {
     }
 
     /**
-     * Gives the index by processing the text on sqare
+     * Gives the index by processing the text on square
      * @param cellNum, number on the button
      * @return the index of the button
      */
@@ -267,7 +279,7 @@ public class FifteenPuzzle implements ActionListener {
     }
 
     /**
-     * Checks whehere game is finished or not
+     * Checks where game is finished or not
      * @return true, if the board is in final state
      *         false, if the board is not in final state 
      */
@@ -282,3 +294,4 @@ public class FifteenPuzzle implements ActionListener {
         }
         return true;
     }
+} 
