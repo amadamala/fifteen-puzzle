@@ -1,9 +1,5 @@
-Modified version of Fifteen puzzle game for Android OS. It displays scrambled tiles of image and player have to arranged the tiles into images. 
-   I will update the code if I get time to work on it.
 
-todo
-----
+This repository contains 2 versions of fifteen puzzle game.
+1. Modified version of Fifteen puzzle game for Android OS. It displays scrambled tiles of image and player have to arranged the tiles into images. 
+2. Classic Fifteen puzzle/NPuzzle game written in Java.[javaVersion/FifteenPuzzle.java]
 
-- Smooth movement of tiles instead of jumping from one place to another.
-- Option to select image from user library or flickr.
-- Shake for new game.
