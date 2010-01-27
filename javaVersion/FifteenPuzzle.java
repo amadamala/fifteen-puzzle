@@ -6,19 +6,6 @@ import java.util.Arrays;
 import java.util.Collections;
 
 /**
- * It is a sliding puzzle that consists of a grid of numbered squares 
- * with one square missing, and the labels on the squares jumbled up
- *  
- * The n-puzzle is known in various versions, including the 8 puzzle, 
- * the 15 puzzle, and with various names. If the grid is 3×3, the puzzle 
- * is called the 8-puzzle or 9-puzzle. If the grid is 4×4, the puzzle is 
- * called the 15-puzzle or 16-puzzle. The goal of the puzzle is to 
- * un-jumble the squares by only making moves which slide squares into 
- * the empty space, in turn revealing another empty space in the position 
- * of the moved piece.
- */
-
-/**
  * 
  * @author Anil Madamala 
  * Copyright (c) 2007,2008 Anil Madamala
