@@ -8,7 +8,7 @@ This repository contains 2 versions of fifteen puzzle game.
 	* Classic Fifteen Puzzle or NPuzzle game written in Java.[JavaVersion/FifteenPuzzle.java]
 
 Todo
-====
+----
 * Android version
 	* Drag and drop of tiles to target locations. Now it's just jumping.
 	* Option to select image from user library or flickr.
